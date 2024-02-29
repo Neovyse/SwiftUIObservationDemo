@@ -10,6 +10,7 @@ import Observation
 
 @Observable class Book: Identifiable {
     
+    //@ObservationIgnored
     var title: String
     var author = Author()
     var isAvailable = true
