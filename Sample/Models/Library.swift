@@ -6,7 +6,6 @@ A observable data model for a library that contains books.
 */
 
 import SwiftUI
-import Observation
 
 @Observable class Library {
     var books: [Book] = Book.examples()

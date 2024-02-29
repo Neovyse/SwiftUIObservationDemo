@@ -6,7 +6,6 @@ An observable data model for an author.
 */
 
 import SwiftUI
-import Observation
 
 @Observable class Author: Identifiable {
     var name: String

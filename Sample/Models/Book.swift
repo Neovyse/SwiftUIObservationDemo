@@ -6,7 +6,6 @@ An observable data model for a book.
 */
 
 import SwiftUI
-import Observation
 
 @Observable class Book: Identifiable {
     
